@@ -3,7 +3,7 @@ import SectionContainer from "@/components/SectionContainer.astro";
 import { work } from '@cv'
 ---
 
-<SectionContainer title="Experiencia">
+<SectionContainer title="Experiencia laboral">
   <ul>
     {
       work.map(({ name, position, startDate, endDate, summary }) => {
@@ -35,10 +35,12 @@ import { work } from '@cv'
   article h3 {
     font-weight: 500;
     color: #111;
+    margin-bottom: 4px;
   }
   article h4 {
     color: #222;
     font-weight: 400;
+    margin-bottom: 4px;
   }
   header {
     display: flex;

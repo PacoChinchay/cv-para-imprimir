@@ -1,7 +1,33 @@
 ---
 import SectionContainer from "@/components/SectionContainer.astro";
+import { skills } from "@cv"
 ---
 
 <SectionContainer title="Skills">
-  <h2>Skills</h2>
+  <ul>
+    {
+      skills.map(({ name }) => {
+        return (
+          <li>
+            <span>{name}</span>
+          </li>
+        )
+      })
+    }
+  </ul>
 </SectionContainer>
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  li {
+    border-radius: 6px;
+    background: #ddd;
+    color: black;
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+</style>

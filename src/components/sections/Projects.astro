@@ -1,7 +1,62 @@
 ---
 import SectionContainer from "@/components/SectionContainer.astro";
+import { projects } from "@cv"
 ---
 
-<SectionContainer title="Projects">
-  <h2>Projects</h2>
+<SectionContainer title="Proyectos">
+  <ul>
+    {
+      projects.map(({ url, description, name, isActive}) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>
+                  <a href={url} title={`ver el proyecto ${name}`}>
+                    {name}
+                  </a>
+                  {
+                    isActive && <span>&bull;</span>
+                  }
+                </h3>
+                <p>{description}</p>
+              </header>
+            </article>  
+          </li>
+        )
+      })
+    }
+  </ul>
 </SectionContainer>
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  article {
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 16px 0px;
+    height: 100%;
+  }
+  article h3 {
+    margin-bottom: 4px;
+  }
+  article a {
+    color: #111;
+  }
+  article a:hover {
+    text-decoration: underline;
+  }
+  article p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  article h3 span {
+    color: rgb(8, 147, 18)
+  }
+</style>
