@@ -1,7 +1,53 @@
 ---
 import SectionContainer from "@/components/SectionContainer.astro";
+import { work } from '@cv'
 ---
 
-<SectionContainer title="Experience">
-  <h2>Experience</h2>
+<SectionContainer title="Experiencia">
+  <ul>
+    {
+      work.map(({ name, position, startDate, endDate, summary }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{name}</h3>
+                  <h4>{position}</h4>
+                </div>
+                <time>{startDate} - {endDate}</time>
+              </header>
+              <footer>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+      )})
+    }
+  </ul>
 </SectionContainer>
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 4px;
+  }
+  time {
+    font-size: .85rem;
+    color: #555;
+  }
+</style>

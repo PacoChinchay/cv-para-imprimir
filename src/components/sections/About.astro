@@ -1,7 +1,9 @@
 ---
 import SectionContainer from "@/components/SectionContainer.astro";
+import { basics } from '@cv'
+const { summary } = basics
 ---
 
-<SectionContainer title="about">
-    <h2>About</h2>
+<SectionContainer title="Sobre mí">
+    <p>{summary}</p>
 </SectionContainer>
