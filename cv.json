@@ -1,124 +1,196 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "name": "Paco Jordano Chinchay Chuquilin",
+    "label": "Estudiante de desarrollo de software apasionado, con sólida formación y habilidades en Python y JavaScript, listo para contribuir y aprender.",
+    "image": "./paco.webp",
+    "email": "pacochinchay350@gmail.com",
+    "phone": "(+51) 987 195 524",
+    "url": "https://paco-dev.vercel.app",
+    "summary": "Soy un estudiante apasionado de desarrollo de software con una sólida formación en lenguajes como Python y JavaScript, así como experiencia práctica en proyectos académicos y propios. Mi experiencia laboral previa me enseñó la importancia de trabajar en equipo y con frecuencia asumo posiciones de liderazgo.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Jr. Washintong 1474",
+      "postalCode": "15046",
+      "city": "Lima",
+      "countryCode": "Pe",
+      "region": "Lima"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "",
-        "url": "https://twitter.com/john"
+        "username": "Paco Jordano Chinchay Chuquilin",
+        "url": "https://www.linkedin.com/in/paco-jordano-chinchay-chuquilin-a6ba03234/"
       },
       {
         "network": "GitHub",
-        "username": "",
-        "url": "https://twitter.com/john"
+        "username": "PacoChinchay",
+        "url": "https://github.com/PacoChinchay"
       }
     ]
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": ["Started the company"]
-    }
-  ],
-  "volunteer": [
+      "name": "Grupo Bax S.A.C",
+      "position": "Estibador",
+      "url": "https://www.baxperu.com",
+      "startDate": "06-04-2023",
+      "endDate": "30-09-2023",
+      "summary": "Coordinación, supervisión y despacho de acero para aceros arequipa",
+      "highlights": ["Reconocido por la excelencia de mi trabajo y por la ética profecional"]
+    },
     {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "name": "Total Carwash",
+      "position": "Lavador y Encargado",
+      "url": "https://totalcarwashperu.negocio.site",
+      "startDate": "10-2021",
+      "endDate": "03-2022",
+      "summary": "Atención al Cliente, cuidado del detalle y lavado de autos",
+      "highlights": ["Promovido a Encargado del negocio", "En reconocimiento a mi excelencia trasladado a SUNAT"]
+    },
+    {
+      "name": "Minimarket Chincha",
+      "position": "Almacenero y Reponedor",
+      "url": "",
+      "startDate": "03-2021",
+      "endDate": "07-2021",
+      "summary": "Encargado de almacén, recepcionar mercadería, cajero, etc..",
+      "highlights": [""]
     }
   ],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
-    }
-  ],
-  "awards": [
+      "institution": "SENATI",
+      "url": "https://www.senati.edu.pe",
+      "area": "Desarrollo de Software",
+      "studyType": "Técnico",
+      "startDate": "09-10-2023",
+      "endDate": "Actualmente...",
+      "score": "",
+      "highlights": ["Creador y Líder de equipo para refuerzos"]
+    },
     {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "institution": "Universidad Nacional de San Martín",
+      "url": "https://unsm.edu.pe",
+      "area": "ingeniería de Sistemas y electrónica",
+      "studyType": "Inconcluso",
+      "startDate": "03-2022",
+      "endDate": "07-22",
+      "highlights": [""]
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Responsive Design"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Medio",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Básico",
+      "keywords": ["Desarrollo Web", "Backend", "Frontend", "JavaScript"]
+    },
+    {
+      "name": "Python",
+      "level": "Medio",
+      "keywords": ["Backend", "Servidor"]
+    },
+    {
+      "name": "Astro",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Framework", "Frontend"]
+    },
+    {
+      "name": "React",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "JavaScript Framework",
+        "UI",
+        "Frontend",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Básico",
+      "keywords": [
+        "Desarrollo Web",
+        "React Framework",
+        "SSR",
+        "Frontend",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Básico",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Básico",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Medio",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "fluency": "Básico"
     }
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "name": "Clon Tesla Landing",
+      "isActive": true,
+      "description": "Clon de la landing page de Tesla.",
+      "url": "https://tesla-landing-blush.vercel.app"
+    },
+    {
+      "name": "Clon Esland 3",
+      "isActive": true,
+      "description": "Clon de la página total de los Eslands con base de datos",
+      "url": "https://clon-esland-3-itly.vercel.app"
+    },
+    {
+      "name": "Clon La Velada de año 3",
+      "isActive": false,
+      "description": "Clon de la landing page de la velada del año 3",
+      "url": "https://la-velada-3-landing.vercel.app"
+    },
+    {
+      "name": "React Router",
+      "isActive": false,
+      "description": "Proyecto creado por un curso, se desarrolla un React Router desde cero",
+      "url": "https://github.com/PacoChinchay/practicando-router"
     }
   ]
 }
