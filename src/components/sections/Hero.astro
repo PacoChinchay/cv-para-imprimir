@@ -1,0 +1,84 @@
+---
+import { basics } from '@cv'
+import SectionContainer from '@/components/SectionContainer.astro'
+import Mail from '@/icons/Mail.astro'
+import Phone from '@/icons/Phone.astro'
+import GitHub from '@/icons/GitHub.astro'
+import LinkedIn from '@/icons/LinkedIn.astro'
+
+const { name, label, image, email, location, phone, profiles, summary, url } = basics
+const { address, city, countryCode, postalCode, region  } = location
+
+const SOCIAL_ICONS: Record<string, any> = {
+GitHub,
+LinkedIn
+}
+---
+
+<SectionContainer>
+    <div class="container">
+        <div class="info">
+            <h1>{name}</h1>
+            <h2>{label}</h2>
+            <span>
+                <!-- robar icono -->
+                {city}, {region}
+            </span>
+            <footer>
+                {
+                    email && (
+                        <a 
+                        href={`mailto:${email}`}
+                        title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        <Mail />
+                        </a>
+                    )
+                }
+                {
+                    phone && (
+                        <a 
+                        href={`tel:${phone}`}
+                        title={`Llamar por teléfono a ${name} al número ${phone}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        <Phone />
+                        </a>
+                    )
+                }
+                {
+                    profiles.map(({ network, url, username }) => {
+                        const Icon = SOCIAL_ICONS[network]
+
+                        return (
+                            <a 
+                              href={url}
+                              title={`Visitar el perfil de ${name} en ${network}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                                <Icon />
+                            </a>
+                        )
+                    })
+                }
+            </footer>
+        </div>
+        <figure>
+            <img src={image} alt=`foto de ${name}`>
+        </figure>
+    </div>
+</SectionContainer>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+</style>
