@@ -127,17 +127,6 @@
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Básico",
-      "keywords": [
-        "Desarrollo Web",
-        "React Framework",
-        "SSR",
-        "Frontend",
-        "JavaScript"
-      ]
-    },
-    {
       "name": "Node",
       "level": "Básico",
       "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
