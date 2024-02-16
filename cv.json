@@ -76,75 +76,49 @@
   ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "name": "HTML"
     },
     {
-      "name": "CSS",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "Responsive Design"]
+      "name": "CSS"
     },
     {
-      "name": "JavaScript",
-      "level": "Medio",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "name": "JavaScript"
     },
     {
-      "name": "Tailwind",
-      "level": "Medio",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
+      "name": "TailwindCSS"
     },
     {
-      "name": "TypeScript",
-      "level": "Básico",
-      "keywords": ["Desarrollo Web", "Backend", "Frontend", "JavaScript"]
+      "name": "TypeScript"
     },
     {
-      "name": "Python",
-      "level": "Medio",
-      "keywords": ["Backend", "Servidor"]
+      "name": "Astro"
     },
     {
-      "name": "Astro",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Framework", "Frontend"]
+      "name": "React"
     },
     {
-      "name": "React",
-      "level": "Medio",
-      "keywords": [
-        "Desarrollo Web",
-        "JavaScript Framework",
-        "UI",
-        "Frontend",
-        "JavaScript"
-      ]
+      "name": "Node.js"
     },
     {
-      "name": "Node",
-      "level": "Básico",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      "name": "express"
     },
     {
-      "name": "MySQL",
-      "level": "Básico",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "name": "MySQL"
     },
     {
-      "name": "Git",
-      "level": "Medio",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      "name": "Git"
+    },
+    {
+      "name": "Github"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "vitest"
+    },
+    {
+      "name": "jest"
     }
   ],
   "languages": [
