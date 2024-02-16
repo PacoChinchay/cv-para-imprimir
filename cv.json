@@ -119,6 +119,9 @@
     },
     {
       "name": "jest"
+    },
+    {
+      "name": "Redux"
     }
   ],
   "languages": [
