@@ -6,7 +6,7 @@
     "email": "pacochinchay350@gmail.com",
     "phone": "(+51) 987 195 524",
     "url": "https://paco-dev.vercel.app",
-    "summary": "Soy un estudiante apasionado de desarrollo de software con una sólida formación en lenguajes como Python y JavaScript, así como experiencia práctica en proyectos académicos y propios. Mi experiencia laboral previa me enseñó la importancia de trabajar en equipo y con frecuencia asumo posiciones de liderazgo.",
+    "summary": "Soy un estudiante apasionado de desarrollo de software con una sólida formación en lenguajes como C# y JavaScript, así como experiencia práctica en proyectos académicos y propios. Mi experiencia laboral previa me enseñó la importancia de trabajar en equipo y con frecuencia asumo posiciones de liderazgo.",
     "location": {
       "address": "Jr. Washintong 1474",
       "postalCode": "15046",
@@ -85,6 +85,18 @@
       "name": "JavaScript"
     },
     {
+      "name": "C#"
+    },
+    {
+      "name": ".NET"
+    },
+    {
+      "name": "Entity Framework"
+    },
+    {
+      "name": "SQL Server"
+    },
+    {
       "name": "TailwindCSS"
     },
     {
@@ -103,12 +115,6 @@
       "name": "Angular 17"
     },
     {
-      "name": "Node.js"
-    },
-    {
-      "name": "express"
-    },
-    {
       "name": "MySQL"
     },
     {
@@ -116,18 +122,6 @@
     },
     {
       "name": "Github"
-    },
-    {
-      "name": "Python"
-    },
-    {
-      "name": "vitest"
-    },
-    {
-      "name": "jest"
-    },
-    {
-      "name": "Redux"
     }
   ],
   "languages": [
