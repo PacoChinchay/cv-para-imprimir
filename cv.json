@@ -124,6 +124,20 @@
       "name": "Github"
     }
   ],
+  "competencias": [
+    {
+      "name": "Trabajo en equipo"
+    },
+    {
+      "name": "Proactividad"
+    },
+    {
+      "name": "Autogestión"
+    },
+    {
+      "name": "Comunicación Verbal"
+    }
+  ],
   "languages": [
     {
       "language": "English",
